@@ -1,0 +1,24 @@
+{
+    "name": "spinner-canvas",
+    "version": "1.0.0",
+    "homepage": "https://github.com/diiimonn/spinners",
+    "authors": [
+        "Dmitriy Gavrilenko <diiimonn@gmail.com>"
+    ],
+    "description": "Animate circular indicator using HTML5 canvas and jQuery",
+    "main": "js/spinners/spinners.js",
+    "keywords": [
+        "spinners",
+        "canvas",
+        "jquery",
+        "loader"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

@@ -1,0 +1,95 @@
+
+
+*{
+ margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    padding: 50px;
+    background-image: url("bg3.png");
+}
+.container{
+    font-size: 20px;
+    margin: auto;
+    padding: auto;
+    background-color: rgb(253, 225, 9);
+    border-radius: 15px;
+}
+.main-div{
+    width: 100%; height: 100%;
+    margin: auto; padding: auto;
+    /* background-color: goldenrod; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.center-div{
+    width: 90%;
+    height: 80%;
+    background: -webkit-linear-gradient(left, #5DADE2, #00c6ff) ;
+    padding: 20px 10px 50px 10px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+    border-radius: 10px;
+}
+    h1{
+font-size: 21px;
+color: #000;
+text-align: center;
+margin-top: 20px ;
+margin-bottom: 20px;
+padding-bottom: 10px;
+border-bottom: 4px solid beige;
+/* style="text-align: center; border-bottom: 4px solid beige;" */
+    }
+
+.table{
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+    border-radius: 10px;
+    margin: auto;
+}
+th,td{
+    border: 1px solid #f2f2f2;
+    padding: 5px 25px;
+    text-align: center;
+    color: gray;
+}
+th{
+text-transform: uppercase;
+font-weight: 500;
+}
+td{
+    font-size: 13px;
+}
+    .resume-style{
+font-size: 14px;
+color: gray;
+display: inline-block;
+background: #f2f2f2;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+line-height: 30px;
+padding: 0 14px;
+    }
+.post-class{
+    text-transform: uppercase;
+}
+.fa{
+    font-size: 18px;
+}
+.fa-edit{
+    color: #63c76a;
+}
+.fa-trash{
+    color: #ff0000;
+}
+a{
+    text-decoration: none; display: flex; justify-content: center;
+}
+.button{
+    text-align: center;
+    padding-bottom: 10px;
+}
